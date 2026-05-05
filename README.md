@@ -1,7 +1,7 @@
 # <p align="center">🤖 SAMEER PATWARDHAN</p>
 
 <p align="center">
-Robotics Simulation Engineer (Aspiring) | ROS2 + Gazebo | CAD → Simulation Pipeline | Physical AI | Bionics & Humanoid Robotics
+Robotics Simulation Engineer (Aspiring) | ROS2 + Gazebo | CAD → URDF → Simulation | Physical AI | Bionics & Humanoid Robotics
 </p>
 
 ---
@@ -10,13 +10,10 @@ Robotics Simulation Engineer (Aspiring) | ROS2 + Gazebo | CAD → Simulation Pip
 
 I am an Automation & Robotics student at JSPM’s RSCOE and a member of Team CiPHER, working at the intersection of **mechanical design, simulation, and robotics software**.
 
-My focus is on building **physics-based robotic systems** by integrating:
-- CAD → URDF → Simulation → Control
+I focus on building **physics-based robotic systems**, where designs are validated in simulation before real-world deployment.
 
-I am currently transitioning from **design-focused engineering to simulation-driven robotics**, where systems are validated virtually before real-world deployment.
-
-🎯 **Primary Interest:**
-Bionics & Humanoid Robotics — designing systems that replicate and enhance human motion.
+🎯 **Core Direction:**  
+Robotics Simulation + Physical AI → toward Humanoid & Bionic Systems
 
 ---
 
@@ -25,64 +22,78 @@ Bionics & Humanoid Robotics — designing systems that replicate and enhance hum
 ### 🧩 Mechanical Design & Analysis
 - Autodesk Fusion 360 (CAD + Simulation)
 - GD&T (Manufacturing precision)
-- FEA (Stress & structural analysis)
+- Finite Element Analysis (FEA)
 
 ### 🤖 Robotics & Simulation
-- ROS2 (Learning: Nodes, Topics, TF, Nav2)
+- ROS2 (Learning: Nodes, Topics, TF)
 - Gazebo (Physics-based simulation)
-- URDF/Xacro (Robot modeling)
+- URDF / Xacro (Robot modeling)
 - Simscape Multibody (Basic)
 
-### 🧠 Control & Computing
-- MATLAB & Simulink (Control systems, VFD simulation)
-- PID Control Systems
-- Python & C++ (Robotics programming)
+### 🧠 Control & Programming
+- MATLAB & Simulink (Control systems)
+- PID Control
+- Python & C++
 - Git & GitHub
 
 ---
 
-## 🚀 Simulation-Oriented Projects
+## 🚀 Flagship Work (In Progress)
 
-### 🌊 VARUNA — Autonomous Underwater Vehicle (AUV)
-- Designed mechanical architecture for a holonomic 6-thruster system
-- Performed structural considerations for underwater pressure resistance
-- Contributed to system-level design integrating sensors, control, and propulsion
+### 🤖 ROS2 AMR Simulation
+> Building a complete simulated robotic system using ROS2 and Gazebo
+
+**Goals:**
+- URDF-based robot modeling  
+- Physics-based simulation in Gazebo  
+- ROS2 control (velocity + motion)  
+- Navigation (Nav2)  
+- Sensor integration  
 
 ---
 
-### 🛸 Drone Flight Simulation (MATLAB)
-- Imported URDF model using `importrobot`
-- Simulated flight dynamics with PID-based throttle and altitude control
-- Modeled real-world constraints like gravity and response delay
+## 🛠️ Key Projects
+
+### 🌊 VARUNA — Autonomous Underwater Vehicle
+- Designed mechanical architecture for a 6-thruster holonomic system  
+- Considered underwater pressure and structural constraints  
+- Contributed to system-level integration (sensors + control + propulsion)
+
+---
+
+### 🛸 Drone Simulation (MATLAB)
+- Imported URDF using `importrobot`  
+- Simulated flight dynamics with PID control  
+- Modeled throttle and hover stabilization  
 
 ---
 
 ### 🦾 Techman TM5-900 — Robot Modeling
-- Developed CAD-based digital model for reach and workspace analysis
-- Studied kinematics and joint motion for industrial robot replication
+- Developed CAD model for kinematics and workspace analysis  
+- Studied joint motion and reachability  
 
 ---
 
-## 📚 Current Focus
+## 🔬 Current Focus
 
 - Building robots in **Gazebo using ROS2**
-- Learning **robot control and navigation (Nav2)**
-- Understanding **robot dynamics and simulation accuracy**
-- Developing **digital twins for robotic systems**
+- Learning **robot control + navigation**
+- Developing **CAD → URDF → Simulation pipeline**
+- Moving toward **digital twins and physical AI systems**
 
 ---
 
 ## 🎯 Roadmap
 
-- [ ] Build differential drive robot in ROS2 + Gazebo  
-- [ ] Implement navigation stack (Nav2)  
-- [ ] Simulate robotic arm (URDF + control)  
-- [ ] Develop vision-based control system  
-- [ ] Move toward humanoid joint simulation  
+- [ ] Differential drive robot (ROS2 + Gazebo)  
+- [ ] Navigation stack (Nav2)  
+- [ ] Robotic arm simulation  
+- [ ] Vision-based control system  
+- [ ] Humanoid joint simulation  
 
 ---
 
-## 📜 Certifications (Relevant)
+## 📜 Relevant Certifications
 
 - MathWorks — FEA with MATLAB  
 - MathWorks — Simulink Onramp  
@@ -95,12 +106,16 @@ Bionics & Humanoid Robotics — designing systems that replicate and enhance hum
 ## 📡 Connect
 
 <p align="center">
-  <a href="https://linkedin.com/in/sameerpatwardhan11"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" /></a>
-  <a href="mailto:sameerpatwardhan11@gmail.com"><img src="https://img.shields.io/badge/Email-Reach_Out-red?style=for-the-badge&logo=gmail" /></a>
+  <a href="https://linkedin.com/in/sameerpatwardhan11">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin">
+  </a>
+  <a href="mailto:sameerpatwardhan11@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Reach_Out-red?style=for-the-badge&logo=gmail">
+  </a>
 </p>
 
 ---
 
 <p align="center">
-<i>“Simulate before you build. Understand before you optimize.”</i>
+<i>“Simulate → Validate → Build → Improve”</i>
 </p>
