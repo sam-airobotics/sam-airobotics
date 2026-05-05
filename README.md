@@ -1,85 +1,106 @@
-# <p align="center">🌌 SAMEER PATWARDHAN</p>
+# <p align="center">🤖 SAMEER PATWARDHAN</p>
+
+<p align="center">
+Robotics Simulation Engineer (Aspiring) | ROS2 + Gazebo | CAD → Simulation Pipeline | Physical AI | Bionics & Humanoid Robotics
+</p>
+
+---
 
 ## 🔭 About Me
-I am a **Robotics & Bionics Enthusiast** specializing in **Mechanical Design** and **Structural Analysis**. Currently a **Second Year (SY)** student in Automation & Robotics, I focus on bridging the gap between high-fidelity **CAD/FEA** models and functional **Autonomous Systems**.
 
-* 🔭 **Focus:** Bionics, Humanoid Systems & Underwater Robotics
-* 🛠️ **Expertise:** Fusion 360, FEA, GD&T & MATLAB/Simulink
-* 📚 **Learning:** ROS2 Navigation Stack & Physics-based Simulation
-* ✨ **Goal:** Engineering the next generation of assistive bionic technologies.
+I am an Automation & Robotics student at JSPM’s RSCOE and a member of Team CiPHER, working at the intersection of **mechanical design, simulation, and robotics software**.
 
----
+My focus is on building **physics-based robotic systems** by integrating:
+- CAD → URDF → Simulation → Control
 
-## 🎓 Academic Orbit
-**JSPM's Rajarshi Shahu College of Engineering** | *Automation & Robotics*
-* 📍 **Status:** Second Year (SY) Student
-* 🤝 **Societies:** Team CiPHER (Official ROBOCON Team), IEEE Robotics & Automation Society (RAS)
-* 🗣️ **Languages:** German I (NPTEL Certified)
+I am currently transitioning from **design-focused engineering to simulation-driven robotics**, where systems are validated virtually before real-world deployment.
+
+🎯 **Primary Interest:**
+Bionics & Humanoid Robotics — designing systems that replicate and enhance human motion.
 
 ---
 
-## 🛠️ Technical Skills & Diagnostics
+## ⚙️ Engineering Stack
 
-**Mechanical Design & Analysis**
-* ⚙️ Proficiency: Expert (Fusion 360, FEA, GD&T)
+### 🧩 Mechanical Design & Analysis
+- Autodesk Fusion 360 (CAD + Simulation)
+- GD&T (Manufacturing precision)
+- FEA (Stress & structural analysis)
 
-**Technical Computing**
-* 💻 Proficiency: Advanced (MATLAB, Simulink, AI/ML, Python, C++)
+### 🤖 Robotics & Simulation
+- ROS2 (Learning: Nodes, Topics, TF, Nav2)
+- Gazebo (Physics-based simulation)
+- URDF/Xacro (Robot modeling)
+- Simscape Multibody (Basic)
 
-**ROS2 & Robotics Simulation**
-* 🚀 Status: Initiating Journey / Active Learning
+### 🧠 Control & Computing
+- MATLAB & Simulink (Control systems, VFD simulation)
+- PID Control Systems
+- Python & C++ (Robotics programming)
+- Git & GitHub
+
+---
+
+## 🚀 Simulation-Oriented Projects
+
+### 🌊 VARUNA — Autonomous Underwater Vehicle (AUV)
+- Designed mechanical architecture for a holonomic 6-thruster system
+- Performed structural considerations for underwater pressure resistance
+- Contributed to system-level design integrating sensors, control, and propulsion
+
+---
+
+### 🛸 Drone Flight Simulation (MATLAB)
+- Imported URDF model using `importrobot`
+- Simulated flight dynamics with PID-based throttle and altitude control
+- Modeled real-world constraints like gravity and response delay
+
+---
+
+### 🦾 Techman TM5-900 — Robot Modeling
+- Developed CAD-based digital model for reach and workspace analysis
+- Studied kinematics and joint motion for industrial robot replication
+
+---
+
+## 📚 Current Focus
+
+- Building robots in **Gazebo using ROS2**
+- Learning **robot control and navigation (Nav2)**
+- Understanding **robot dynamics and simulation accuracy**
+- Developing **digital twins for robotic systems**
+
+---
+
+## 🎯 Roadmap
+
+- [ ] Build differential drive robot in ROS2 + Gazebo  
+- [ ] Implement navigation stack (Nav2)  
+- [ ] Simulate robotic arm (URDF + control)  
+- [ ] Develop vision-based control system  
+- [ ] Move toward humanoid joint simulation  
+
+---
+
+## 📜 Certifications (Relevant)
+
+- MathWorks — FEA with MATLAB  
+- MathWorks — Simulink Onramp  
+- Microsoft — GitHub  
+- IBM — AI Fundamentals  
+- Fusion 360 Essential Training  
+
+---
+
+## 📡 Connect
 
 <p align="center">
-  <img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" />
-  <img src="https://img.shields.io/badge/MATLAB-ED1C24?style=for-the-badge&logo=mathworks&logoColor=white" />
-  <img src="https://img.shields.io/badge/ros-%230A0FF9.svg?style=for-the-badge&logo=ros&logoColor=white" />
-  <img src="https://img.shields.io/badge/Fusion360-FF7139?style=for-the-badge&logo=autodesk&logoColor=white" />
-  <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white" />
+  <a href="https://linkedin.com/in/sameerpatwardhan11"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" /></a>
+  <a href="mailto:sameerpatwardhan11@gmail.com"><img src="https://img.shields.io/badge/Email-Reach_Out-red?style=for-the-badge&logo=gmail" /></a>
 </p>
 
 ---
 
-## 📜 Certified Technical Orbits
-| Sector | Credential Highlights |
-| :--- | :--- |
-| **Robotics & AI** | **IBM** AI Fundamentals • **Forage** AI Simulation • **Kodacy** Robotics |
-| **Analysis & Math** | **MathWorks** FEA with MATLAB • **MathWorks** Simulink Onramp |
-| **Mechanical Design** | **LinkedIn** GD&T • **LinkedIn** CATIA V5 Surfacing • **Fusion 360** Essentials |
-| **Systems & Industrial** | **Wipro PARI** Industrial Training • **iFactory** Industry 4.0 • **Six Sigma** Green Belt |
-| **Development** | **Microsoft** GitHub • **Scaler** Python & C++ • **Adobe** Digital Marketing |
-
----
-
-## 🚀 Mission Logs (Key Projects)
-
-### 🌊 VARUNA — Vision-Guided AUV
-* 🛠️ **Mechanical Design:** Engineered electronics enclosures validated through **FEA** for underwater depth pressures.
-* 🧭 **Propulsion & Stability:** Optimized thruster geometry and conducted buoyancy analysis in **MATLAB**.
-
-### 🛸 Drone Flight Simulation
-* **MATLAB Simulation:** Used MATLAB Live Script to run the drone urdf using 'importrobot'
-* **Physics:** Added Real World flight conditions to the simulation with speed [**throttle**] and height [**hover**] control using PID
-
-### 🦾 Techman TM5-900 Kinematics
-* 🤖 **Digital Twin:** Developed high-fidelity CAD models for reach analysis and movement simulation.
-
----
-
-## 📡 Transmission Channels
 <p align="center">
-  <a href="https://linkedin.com/in/sameerpatwardhan11"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" /></a> 
-  <a href="https://instagram.com/iam_sameermp"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" /></a> 
-  <a href="mailto:sameerpatwardhan11@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-</p>
-
----
-### 📜 Check out my Resume
-<a href="Sam Resume.jpeg">My Resume</a>
-
----
-
-<p align="center">
-  <i>"Inspired by Passion"</i>
+<i>“Simulate before you build. Understand before you optimize.”</i>
 </p>
