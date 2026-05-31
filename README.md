@@ -1,121 +1,68 @@
-# <p align="center">🤖 SAMEER PATWARDHAN</p>
+<div align="center">
+
+# 🤖 Sameer Patwardhan
 
 <p align="center">
-Robotics Simulation Engineer (Aspiring) | ROS2 + Gazebo | CAD → URDF → Simulation | Physical AI | Bionics & Humanoid Robotics
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1500&center=true&vCenter=true&width=700&color=58A6FF&lines=Robot+Simulation+Engineer;ROS+2+%7C+Gazebo+%7C+Physical+AI;Building+Digital+Twins;Future+Robotics+Researcher" />
 </p>
 
----
-
-## 🔭 About Me
-
-I am an Automation & Robotics student at JSPM’s RSCOE and a member of Team CiPHER, working at the intersection of **mechanical design, simulation, and robotics software**.
-
-I focus on building **physics-based robotic systems**, where designs are validated in simulation before real-world deployment.
-
-🎯 **Core Direction:**  
-Robotics Simulation + Physical AI → toward Humanoid & Bionic Systems
-
----
-
-## ⚙️ Engineering Stack
-
-### 🧩 Mechanical Design & Analysis
-- Autodesk Fusion 360 (CAD + Simulation)
-- GD&T (Manufacturing precision)
-- Finite Element Analysis (FEA)
-
-### 🤖 Robotics & Simulation
-- ROS2 (Learning: Nodes, Topics, TF)
-- Gazebo (Physics-based simulation)
-- URDF / Xacro (Robot modeling)
-- Simscape Multibody (Basic)
-
-### 🧠 Control & Programming
-- MATLAB & Simulink (Control systems)
-- PID Control
-- Python & C++
-- Git & GitHub
-
----
-
-## 🚀 Flagship Work (In Progress)
-
-### 🤖 ROS2 AMR Simulation
-> Building a complete simulated robotic system using ROS2 and Gazebo
-
-**Goals:**
-- URDF-based robot modeling  
-- Physics-based simulation in Gazebo  
-- ROS2 control (velocity + motion)  
-- Navigation (Nav2)  
-- Sensor integration  
-
----
-
-## 🛠️ Key Projects
-
-### 🌊 VARUNA — Autonomous Underwater Vehicle
-- Designed mechanical architecture for a 6-thruster holonomic system  
-- Considered underwater pressure and structural constraints  
-- Contributed to system-level integration (sensors + control + propulsion)
-
----
-
-### 🛸 Drone Simulation (MATLAB)
-- Imported URDF using `importrobot`  
-- Simulated flight dynamics with PID control  
-- Modeled throttle and hover stabilization  
-
----
-
-### 🦾 Techman TM5-900 — Robot Modeling
-- Developed CAD model for kinematics and workspace analysis  
-- Studied joint motion and reachability  
-
----
-
-## 🔬 Current Focus
-
-- Building robots in **Gazebo using ROS2**
-- Learning **robot control + navigation**
-- Developing **CAD → URDF → Simulation pipeline**
-- Moving toward **digital twins and physical AI systems**
-
----
-
-## 🎯 Roadmap
-
-- [ ] Differential drive robot (ROS2 + Gazebo)  
-- [ ] Navigation stack (Nav2)  
-- [ ] Robotic arm simulation  
-- [ ] Vision-based control system  
-- [ ] Humanoid joint simulation  
-
----
-
-## 📜 Relevant Certifications
-
-- MathWorks — FEA with MATLAB  
-- MathWorks — Simulink Onramp  
-- Microsoft — GitHub  
-- IBM — AI Fundamentals  
-- Fusion 360 Essential Training  
-
----
-
-## 📡 Connect
-
-<p align="center">
-  <a href="https://linkedin.com/in/sameerpatwardhan11">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin">
-  </a>
-  <a href="mailto:sameerpatwardhan11@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Reach_Out-red?style=for-the-badge&logo=gmail">
-  </a>
-</p>
+</div>
 
 ---
 
 <p align="center">
-<i>“Simulate → Validate → Build → Improve”</i>
+  <img src="https://github.com/sam-airobotics/amr-simulation/blob/main/images/amr_gazebo.png" width="850" alt="AMR Simulation"/>
 </p>
+
+---
+
+## ⚙️ Tech Stack
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,cpp,linux,git,github,vscode" />
+
+<br>
+
+<br>
+
+**ROS 2 • Gazebo Harmonic • RViz • URDF • Xacro • Fusion 360**
+
+</div>
+
+---
+
+## 🤖 Active Project
+
+### AMR Simulation
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/CAD-orange?style=for-the-badge" />
+➜
+<img src="https://img.shields.io/badge/URDF%2FXacro-blue?style=for-the-badge" />
+➜
+<img src="https://img.shields.io/badge/Gazebo-green?style=for-the-badge" />
+➜
+<img src="https://img.shields.io/badge/ROS2-red?style=for-the-badge" />
+➜
+<img src="https://img.shields.io/badge/SLAM-purple?style=for-the-badge" />
+➜
+<img src="https://img.shields.io/badge/Nav2-blueviolet?style=for-the-badge" />
+➜
+<img src="https://img.shields.io/badge/Autonomy-success?style=for-the-badge" />
+
+</p>
+
+Building an Autonomous Mobile Robot Simulation using ROS 2 and Gazebo Harmonic.
+
+🔗 **Repository**  
+https://github.com/sam-airobotics/amr-simulation
+
+---
+
+<div align="center">
+
+⚙️ Design → Simulate → Validate → Deploy
+
+</div>
