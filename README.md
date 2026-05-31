@@ -20,13 +20,15 @@
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,cpp,linux,git,github,vscode" />
+<img src="assets/SolidWorks.png" height="48"/>
+<img src="assets/Fusion 360.png" height="48"/>
 
-<br>
+<img src="assets/ROS.png" height="48"/>
+<img src="assets/Gazebo.png" height="48"/>
 
-<br>
+<img src="https://skillicons.dev/icons?i=linux,git,github,vscode" />
 
-**ROS 2 • Gazebo Harmonic • RViz • URDF • Xacro • Fusion 360**
+<img src="https://skillicons.dev/icons?i=cpp,python,opencv,docker" />
 
 </div>
 
