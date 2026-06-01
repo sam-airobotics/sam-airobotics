@@ -3,7 +3,7 @@
 # 🤖 Sameer Patwardhan
 
 <p align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1500&center=true&vCenter=true&width=700&color=58A6FF&lines=Robot+Simulation+Engineer;ROS+2+%7C+Gazebo+%7C+Physical+AI;Building+Digital+Twins;Future+Robotics+Researcher" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1500&center=true&vCenter=true&width=700&color=58A6FF&lines=Robot+Simulation+Engineer;ROS+2+%7C+Gazebo+%7C+Physical+AI;Building+Digital+Twins;Future+Robotics+Researcher" />
 </p>
 
 </div>
