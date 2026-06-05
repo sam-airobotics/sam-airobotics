@@ -65,6 +65,6 @@ https://github.com/sam-airobotics/amr-simulation
 
 <div align="center">
 
-⚙️ Design → Simulate → Validate → Deploy
+⚙️ Design → ☯️ Simulate → ✅️ Validate → 🤖 Deploy
 
 </div>
