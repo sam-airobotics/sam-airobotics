@@ -1,6 +1,7 @@
 <div align="center">
 
-# Hi there! I am Sameer Patwardhan 🤖
+# Hi there! I am 
+Sameer Patwardhan 🤖
 
 <p align="center">
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=35&pause=1500&center=true&vCenter=true&width=700&color=58A6FF&lines=Robot+Simulation+Engineer;ROS+2+%7C+Gazebo+%7C+Physical+AI;Building+Digital+Twins;Future+Robotics+Researcher" />
