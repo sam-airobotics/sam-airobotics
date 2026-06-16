@@ -63,14 +63,6 @@ https://github.com/sam-airobotics/amr-simulation
 
 ---
 
-<div align="center">
-
-⚙️ Design → ☯️ Simulate → ✅️ Validate → 🤖 Deploy
-
-</div>
-
----
-
 ## 📱 Connect With Me
 
 <div align="center">
@@ -79,3 +71,14 @@ https://github.com/sam-airobotics/amr-simulation
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/iam_sameermp)
 
 </div>
+
+---
+
+<div align="center">
+
+⚙️ Design → ☯️ Simulate → ✅️ Validate → 🤖 Deploy
+
+</div>
+
+---
+
