@@ -3,7 +3,7 @@
 # Hi, I'm Sameer 🤖
 
 <p align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=35&pause=1500&center=true&vCenter=true&width=700&color=58A6FF&lines=Robot+Simulation+Engineer;ROS+2+%7C+Gazebo+%7C+Physical+AI;Building+Digital+Twins;Future+Robotics+Researcher" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=35&pause=1500&center=true&vCenter=true&width=700&color=58A6FF&lines=Robot+Simulation+Engineer;ROS+2+%7C+Gazebo+%7C+Physical+AI;Building+Autonomous+Systems" alt="Typing SVG" />
 </p>
 
 </div>
@@ -66,5 +66,16 @@ https://github.com/sam-airobotics/amr-simulation
 <div align="center">
 
 ⚙️ Design → ☯️ Simulate → ✅️ Validate → 🤖 Deploy
+
+</div>
+
+---
+
+## 📱 Connect With Me
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sampatwardhan11)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/iam_sameermp)
 
 </div>
