@@ -11,7 +11,7 @@
 ---
 
 <p align="center">
-  <img src="https://github.com/sam-airobotics/amr-simulation/blob/main/images/amr_gazebo.png" width="850" alt="AMR Simulation"/>
+  <img src="https://github.com/sam-airobotics/amr-simulation/blob/main/resources/videos/amr_sim.gif" width="850" alt="AMR Simulation"/>
 </p>
 
 ---
