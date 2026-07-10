@@ -18,19 +18,39 @@
 
 ## ⚙️ Tech Stack
 
-<div align="center">
+### 🤖 Robotics
 
-<img src="assets/SolidWorks.png" height="48"/>
-<img src="assets/Fusion 360.png" height="48"/>
+![](https://img.shields.io/badge/ROS2-22314E?style=for-the-badge)&nbsp;&nbsp;
+![](https://img.shields.io/badge/GAZEBO-F58113?style=for-the-badge)&nbsp;&nbsp;
+![](https://img.shields.io/badge/ROBOT_KINEMATICS-1565C0?style=for-the-badge)&nbsp;&nbsp;
+![](https://img.shields.io/badge/ROBOT_DYNAMICS-6A1B9A?style=for-the-badge)&nbsp;&nbsp;
+<br>
+![](https://img.shields.io/badge/FUSION_360-FF6C37?style=for-the-badge)&nbsp;&nbsp;&nbsp;
+![](https://img.shields.io/badge/GD&T-1565C0?style=for-the-badge)&nbsp;&nbsp;
+![](https://img.shields.io/badge/SOLIDWORKS-CC0000?style=for-the-badge)&nbsp;&nbsp;
+<br>
+![](https://img.shields.io/badge/ARDUINO_UNO-00979D?style=for-the-badge)&nbsp;&nbsp;
+![](https://img.shields.io/badge/ARDUINO_NANO-00878F?style=for-the-badge)&nbsp;&nbsp;
+![](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge)&nbsp;&nbsp;
+![](https://img.shields.io/badge/ARDUINO_UNO_Q-00599C?style=for-the-badge)&nbsp;&nbsp;
 
-<img src="assets/ROS.png" height="48"/>
-<img src="assets/Gazebo.png" height="48"/>
+### 🛠️ Tools
 
-<img src="https://skillicons.dev/icons?i=linux,git,github,vscode" />
+![](https://img.shields.io/badge/GITHUB-181717?style=for-the-badge)&nbsp;&nbsp;
+![](https://img.shields.io/badge/VS_CODE-007ACC?style=for-the-badge)&nbsp;&nbsp;
+![](https://img.shields.io/badge/GOOGLE_COLAB-F9AB00?style=for-the-badge)&nbsp;&nbsp;
+![](https://img.shields.io/badge/ARDUINO_IDE-00979D?style=for-the-badge)&nbsp;&nbsp;
+![](https://img.shields.io/badge/ARDUINO_APP_LAB-00A3E0?style=for-the-badge)&nbsp;&nbsp;
 
-<img src="https://skillicons.dev/icons?i=cpp,python,opencv,docker" />
+### 💻 Languages
 
-</div>
+![](https://img.shields.io/badge/C++-00599C?style=for-the-badge)&nbsp;&nbsp;
+![](https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge)&nbsp;&nbsp;
+![](https://img.shields.io/badge/GIT-F05032?style=for-the-badge)&nbsp;&nbsp;
+![](https://img.shields.io/badge/EMBEDDED_C-3949AB?style=for-the-badge)&nbsp;&nbsp;
+![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge)&nbsp;&nbsp;
+![](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge)&nbsp;&nbsp;
+![](https://img.shields.io/badge/JAVASCRIPT-F7DF1E?style=for-the-badge&logoColor=black)&nbsp;&nbsp;
 
 ---
 
