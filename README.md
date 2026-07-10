@@ -59,6 +59,12 @@
 ### AMR Simulation
 
 <p align="center">
+  <img src="assets/amr_animation.svg" width="900" alt="AMR Animation">
+</p>
+
+<br>
+
+<p align="center">
 
 <img src="https://img.shields.io/badge/CAD-orange?style=for-the-badge" />
 ➜
