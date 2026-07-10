@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220">
+
+  <!-- Background -->
+  <rect width="1200" height="220" fill="#0d1117"/>
+
+  <!-- Road -->
+  <line x1="0" y1="150" x2="1200" y2="150"
+        stroke="#3d444d" stroke-width="4"/>
+
+  <!-- Animated dashed lane -->
+  <line x1="0" y1="150" x2="1200" y2="150"
+        stroke="#ffffff"
+        stroke-width="4"
+        stroke-dasharray="50 30">
+    <animate attributeName="stroke-dashoffset"
+             from="0"
+             to="80"
+             dur="1s"
+             repeatCount="indefinite"/>
+  </line>
+
+  <!-- Moving Robot -->
+  <g>
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      from="1350 0"
+      to="-250 0"
+      dur="12s"
+      repeatCount="indefinite"
+      calcMode="linear"/>
+
+    <!-- Body -->
+    <rect x="100" y="95" width="120" height="45" rx="10" fill="#58A6FF"/>
+
+    <!-- Lidar -->
+    <circle cx="160" cy="88" r="8" fill="#ff5252"/>
+
+    <!-- Camera -->
+    <circle cx="205" cy="118" r="5" fill="#111"/>
+
+    <!-- Left Wheel -->
+    <g>
+      <circle cx="125" cy="150" r="12" fill="#222"/>
+      <line x1="125" y1="138" x2="125" y2="162" stroke="#888" stroke-width="2"/>
+      <line x1="113" y1="150" x2="137" y2="150" stroke="#888" stroke-width="2"/>
+      <animateTransform
+        attributeName="transform"
+        type="rotate"
+        from="0 125 150"
+        to="-360 125 150"
+        dur="0.6s"
+        repeatCount="indefinite"/>
+    </g>
+
+    <!-- Right Wheel -->
+    <g>
+      <circle cx="195" cy="150" r="12" fill="#222"/>
+      <line x1="195" y1="138" x2="195" y2="162" stroke="#888" stroke-width="2"/>
+      <line x1="183" y1="150" x2="207" y2="150" stroke="#888" stroke-width="2"/>
+      <animateTransform
+        attributeName="transform"
+        type="rotate"
+        from="0 195 150"
+        to="-360 195 150"
+        dur="0.6s"
+        repeatCount="indefinite"/>
+    </g>
+
+  </g>
+
+</svg>
