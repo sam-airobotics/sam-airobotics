@@ -1,72 +1,142 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="100%">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#0a0e13"/>
+    </linearGradient>
+    <linearGradient id="bodyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#eab35c"/>
+      <stop offset="100%" stop-color="#c1863b"/>
+    </linearGradient>
+    <linearGradient id="floorFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1117" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#080b0f" stop-opacity="1"/>
+    </linearGradient>
+  </defs>
 
-  <!-- Background -->
-  <rect width="1200" height="220" fill="#0d1117"/>
+  <!-- background -->
+  <rect width="1200" height="260" fill="url(#bg)"/>
 
-  <!-- Road -->
-  <line x1="0" y1="150" x2="1200" y2="150"
-        stroke="#3d444d" stroke-width="4"/>
+  <!-- header -->
+  <text x="34" y="34" font-family="Consolas,Menlo,monospace" font-size="14" font-weight="700" fill="#e6edf3" letter-spacing="0.5">AMR &#183; LINEAR MOTION PROFILE</text>
+  <text x="34" y="52" font-family="Consolas,Menlo,monospace" font-size="10.5" fill="#6b7684" letter-spacing="0.4">trapezoidal velocity control &#183; ROS 2 / Gazebo &#183; pure SVG, no JS</text>
 
-  <!-- Animated dashed lane -->
-  <line x1="0" y1="150" x2="1200" y2="150"
-        stroke="#ffffff"
-        stroke-width="4"
-        stroke-dasharray="50 30">
-    <animate attributeName="stroke-dashoffset"
-             from="0"
-             to="80"
-             dur="1s"
-             repeatCount="indefinite"/>
+  <!-- road -->
+  <rect x="0" y="176" width="1200" height="84" fill="url(#floorFade)"/>
+  <line x1="0" y1="184" x2="1200" y2="184" stroke="#26313f" stroke-width="2"/>
+  <line x1="0" y1="184" x2="1200" y2="184" stroke="#3a4a5c" stroke-width="3" stroke-dasharray="34 22">
+    <animate attributeName="stroke-dashoffset" from="0" to="-56" dur="1.1s" repeatCount="indefinite"/>
   </line>
 
-  <!-- Moving Robot -->
-  <g>
-    <animateTransform
-      attributeName="transform"
-      type="translate"
-      from="1350 0"
-      to="-250 0"
-      dur="12s"
-      repeatCount="indefinite"
-      calcMode="linear"/>
+  <!-- waypoint markers -->
+  <g stroke="#2c3846" stroke-width="1.5" stroke-dasharray="4 4">
+    <line x1="140" y1="184" x2="140" y2="96"/>
+    <line x1="1060" y1="184" x2="1060" y2="96"/>
+  </g>
+  <circle cx="140" cy="96" r="4" fill="#3a4552"/>
+  <circle cx="1060" cy="96" r="4" fill="#3a4552"/>
 
-    <!-- Body -->
-    <rect x="100" y="95" width="120" height="45" rx="10" fill="#58A6FF"/>
-
-    <!-- Lidar -->
-    <circle cx="160" cy="88" r="8" fill="#ff5252"/>
-
-    <!-- Camera -->
-    <circle cx="205" cy="118" r="5" fill="#111"/>
-
-    <!-- Left Wheel -->
-    <g>
-      <circle cx="125" cy="150" r="12" fill="#222"/>
-      <line x1="125" y1="138" x2="125" y2="162" stroke="#888" stroke-width="2"/>
-      <line x1="113" y1="150" x2="137" y2="150" stroke="#888" stroke-width="2"/>
-      <animateTransform
-        attributeName="transform"
-        type="rotate"
-        from="0 125 150"
-        to="-360 125 150"
-        dur="0.6s"
-        repeatCount="indefinite"/>
-    </g>
-
-    <!-- Right Wheel -->
-    <g>
-      <circle cx="195" cy="150" r="12" fill="#222"/>
-      <line x1="195" y1="138" x2="195" y2="162" stroke="#888" stroke-width="2"/>
-      <line x1="183" y1="150" x2="207" y2="150" stroke="#888" stroke-width="2"/>
-      <animateTransform
-        attributeName="transform"
-        type="rotate"
-        from="0 195 150"
-        to="-360 195 150"
-        dur="0.6s"
-        repeatCount="indefinite"/>
-    </g>
-
+  <!-- ===== HUD: phase state ===== -->
+  <g font-family="Consolas,Menlo,monospace" font-size="12" font-weight="700" letter-spacing="0.5">
+    <rect x="1006" y="20" width="160" height="26" rx="4" fill="#131a24" stroke="#1c2733"/>
+    <text x="1086" y="37" text-anchor="middle" fill="#556170">
+      HOLD
+      <animate attributeName="opacity" calcMode="discrete"
+        keyTimes="0;0.0455;0.1364;0.4091;0.5;0.5455;0.6364;0.9091;1"
+        values="1;0;0;0;1;0;0;0;1" dur="11s" repeatCount="indefinite"/>
+    </text>
+    <text x="1086" y="37" text-anchor="middle" fill="#f5943f">
+      ACCEL
+      <animate attributeName="opacity" calcMode="discrete"
+        keyTimes="0;0.0455;0.1364;0.4091;0.5;0.5455;0.6364;0.9091;1"
+        values="0;1;0;0;0;1;0;0;0" dur="11s" repeatCount="indefinite"/>
+    </text>
+    <text x="1086" y="37" text-anchor="middle" fill="#5ec8ff">
+      CRUISE
+      <animate attributeName="opacity" calcMode="discrete"
+        keyTimes="0;0.0455;0.1364;0.4091;0.5;0.5455;0.6364;0.9091;1"
+        values="0;0;1;0;0;0;1;0;0" dur="11s" repeatCount="indefinite"/>
+    </text>
+    <text x="1086" y="37" text-anchor="middle" fill="#e0a750">
+      DECEL
+      <animate attributeName="opacity" calcMode="discrete"
+        keyTimes="0;0.0455;0.1364;0.4091;0.5;0.5455;0.6364;0.9091;1"
+        values="0;0;0;1;0;0;0;1;0" dur="11s" repeatCount="indefinite"/>
+    </text>
   </g>
 
+  <!-- ===== HUD: velocity gauge (linear ramp = true v(t) shape) ===== -->
+  <g font-family="Consolas,Menlo,monospace" font-size="9.5" fill="#6b7684" letter-spacing="0.4">
+    <text x="1006" y="66">VELOCITY</text>
+    <rect x="1006" y="72" width="100" height="6" rx="3" fill="#131a24"/>
+    <rect x="1006" y="72" height="6" rx="3" fill="#5ec8ff">
+      <animate attributeName="width"
+        calcMode="spline"
+        keyTimes="0;0.0455;0.1364;0.4091;0.5;0.5455;0.6364;0.9091;1"
+        values="0;0;90;90;0;0;0;90;90;0"
+        keySplines="0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1"
+        dur="11s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- ===== ROBOT ===== -->
+  <g id="robot">
+    <animateTransform attributeName="transform" type="translate"
+      calcMode="spline"
+      keyTimes="0;0.0455;0.1364;0.4091;0.5;0.5455;0.6364;0.9091;1"
+      values="140,0;140,0;255,0;945,0;1060,0;1060,0;945,0;255,0;140,0"
+      keySplines="0 0 1 1;0.42 0 1 1;0 0 1 1;0 0 0.58 1;0 0 1 1;0.42 0 1 1;0 0 1 1;0 0 0.58 1"
+      dur="11s" repeatCount="indefinite"/>
+
+    <ellipse cx="0" cy="168" rx="95" ry="9" fill="#000" opacity="0.35"/>
+
+    <!-- rear wheel -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate"
+        calcMode="spline"
+        keyTimes="0;0.0455;0.1364;0.4091;0.5;0.5455;0.6364;0.9091;1"
+        values="0 -58 162;0 -58 162;230 -58 162;1610 -58 162;1840 -58 162;1840 -58 162;1610 -58 162;230 -58 162;0 -58 162"
+        keySplines="0 0 1 1;0.42 0 1 1;0 0 1 1;0 0 0.58 1;0 0 1 1;0.42 0 1 1;0 0 1 1;0 0 0.58 1"
+        dur="11s" repeatCount="indefinite"/>
+      <circle cx="-58" cy="162" r="24" fill="#111318" stroke="#2b333d" stroke-width="2"/>
+      <circle cx="-58" cy="162" r="8" fill="#33404d"/>
+      <line x1="-58" y1="144" x2="-58" y2="180" stroke="#4a5866" stroke-width="2.5"/>
+      <line x1="-76" y1="162" x2="-40" y2="162" stroke="#4a5866" stroke-width="2.5"/>
+    </g>
+
+    <!-- front wheel -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate"
+        calcMode="spline"
+        keyTimes="0;0.0455;0.1364;0.4091;0.5;0.5455;0.6364;0.9091;1"
+        values="0 58 162;0 58 162;230 58 162;1610 58 162;1840 58 162;1840 58 162;1610 58 162;230 58 162;0 58 162"
+        keySplines="0 0 1 1;0.42 0 1 1;0 0 1 1;0 0 0.58 1;0 0 1 1;0.42 0 1 1;0 0 1 1;0 0 0.58 1"
+        dur="11s" repeatCount="indefinite"/>
+      <circle cx="58" cy="162" r="24" fill="#111318" stroke="#2b333d" stroke-width="2"/>
+      <circle cx="58" cy="162" r="8" fill="#33404d"/>
+      <line x1="58" y1="144" x2="58" y2="180" stroke="#4a5866" stroke-width="2.5"/>
+      <line x1="40" y1="162" x2="76" y2="162" stroke="#4a5866" stroke-width="2.5"/>
+    </g>
+
+    <!-- chassis -->
+    <path d="M -90,142 L -90,116 L -58,100 L 66,100 L 90,116 L 90,142 Z"
+          fill="url(#bodyGrad)" stroke="#8a5f26" stroke-width="1.5"/>
+    <rect x="-90" y="134" width="180" height="8" fill="#a9741f" opacity="0.6"/>
+
+    <!-- red front sensor -->
+    <g transform="translate(-50,70)">
+      <rect x="-18" y="0" width="42" height="26" rx="6" fill="#e14b3c"/>
+      <circle cx="16" cy="13" r="5" fill="#7a1f16"/>
+      <rect x="-18" y="22" width="42" height="7" fill="#a83326"/>
+    </g>
+
+    <!-- green lidar mast -->
+    <g transform="translate(22,0)">
+      <rect x="-5" y="70" width="10" height="30" fill="#c98a2b"/>
+      <ellipse cx="0" cy="54" rx="24" ry="9" fill="#38c172"/>
+      <rect x="-24" y="36" width="48" height="18" fill="#38c172"/>
+      <ellipse cx="0" cy="54" rx="24" ry="9" fill="#2a9d5c"/>
+      <ellipse cx="0" cy="45" rx="24" ry="8" fill="#4fe08a" opacity="0.85"/>
+    </g>
+  </g>
 </svg>
