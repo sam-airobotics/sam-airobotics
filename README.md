@@ -54,6 +54,27 @@
 
 ---
 
+## 🔧 Featured Project
+
+### FusionToDescription
+  A Fusion 360 API PlugIn to export robot description package
+
+Features:
+- Custom UI for the **FusionToDescription**
+- Export Location **Browsing**
+- **Mass Edit** Option
+- **Material Edit** Option
+- **Mesh or Primitive collision** choice
+
+<p align="center">
+  <img src="assets/FusionToDescription SVG.svg" width="900" alt="FusionToDescription">
+</p>
+
+Repository:
+https://github.com/sam-airobotics/FusionToDescription
+
+---
+
 ## 🤖 Active Project
 
 ### AMR Simulation
